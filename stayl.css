@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+.bg-hero{
+    background-repeat: no-repeat;
+    background-color: #0B0B0B;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    margin: 0 auto;
+    width: 1240px;
+    align-items: center;
+}
+.logo img{
+    width: 110px;
+    height: 27px;
+    padding-left: 40px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+ul a{
+    color: #8B8E99;
+}
+.btn img{
+    width: 110px;
+    height: 28px;
+    padding-right: 30px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+.content-title h1{
+    width: 440px;
+    font-weight: 650;
+    font-size: 55px;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.content-title p{
+    width: 440px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8B8E99;
+    margin-top: 20px;
+    
+}
+.bts{
+    width: 100%;
+    margin-top: 25px;
+}
+input{
+    width: 443px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #8B8E99B2;
+    outline: none;
+    text-indent: 40px;
+    
+}
+form img{
+    width: 16px;
+    height: 16px;
+    transform: translate(35px, 4px);
+}
+form button{
+    width: 112px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 9px;
+    color: #FFFFFF;
+    background-color: #3858D6;
+    transform: translate(-124px,-1px);
+}
+.content-img img{
+    width: 400px;
+    height: 470px;
+}
+
+.lorem{
+    margin: 0 auto;
+    width: 1100px;
+    height: 2500px;
+}
+.hours{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.apple{
+    width: 340px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 230px;
+    background-color: #F6F6F6;
+    border-radius: 22px;
+}
+.apples img{
+    width: 85px;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.apple-js h1{
+    width: 170px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.apple-js p{
+    width: 160px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #8B8E99;
+}
+.xiaomi{
+    width: 340px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 230px;
+    background-color: #F6F6F6;
+    border-radius: 22px;
+}
+.xiaomis img{
+    width: 85px;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.xiaomi-js h1{
+    width: 170px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.xiaomi-js p{
+    width: 160px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #8B8E99;
+}
+.fitbit{
+    width: 340px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    height: 230px;
+    background-color: #F6F6F6;
+    border-radius: 22px;
+}
+.fitbits img{
+    width: 85px;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.fitbit-js h1{
+    width: 170px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.fitbit-js p{
+    width: 160px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #8B8E99;
+}
+.find{
+    width: 1100px;
+    padding-top: 120px;
+}
+.finds p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3858D6;
+    padding: 10px;
+}
+.finds h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+}
+.sale{
+    width: 1103px;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Apple1{
+    width: 335px;
+    height: 440px;
+    background-color: #f7f7f7;
+}
+.product-card {
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+  }
+  .icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    transform: translate(270px);
+  }
+  .icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  .cart {
+    background-color: #3b82f6; 
+  }
+  .like {
+    background-color: #ff6b6b; 
+  }
+  .icon img {
+    width: 20px;
+    height: 20px;
+  }
+.Apples1 img{
+    width: 240px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.mmm{
+   margin-left: 80px;
+   padding-top: 25px;
+}
+.mmm h2{
+    width: 334px;
+    font-weight: 600;
+    font-size: 24px;
+    
+}
+.mmm img{
+    width: 115px;
+    margin-left: 28px;
+}
+.price {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+  
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+  
+.new-price {
+    color: black;
+    font-weight: bold;
+}
+.Apple2{
+    width: 335px;
+    height: 440px;
+    background-color: #f7f7f7;
+}
+.Apples2 img{
+    width: 240px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.sb{
+    margin-left: 80px;
+    padding-top: 25px;
+ }
+ .sb h2{
+    width: 334px;
+    font-weight: 600;
+    font-size: 24px;
+     
+ }
+ .sb img{
+    width: 115px;
+    margin-left: 28px;
+ }
+ .old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+  }
+  
+  .new-price {
+    color: black;
+    font-weight: bold;
+  }
+  .Apple3{
+    width: 335px;
+    height: 440px;
+    background-color: #f7f7f7;
+}
+.Apples3 img{
+    width: 240px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.www{
+    margin-left: 80px;
+    padding-top: 25px;
+}
+.www h2{
+    width: 334px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.www img{
+    width: 115px;
+    margin-left: 28px;
+}
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+.new-price {
+    color: black;
+    font-weight: bold;
+}
+.salep{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Apple4{
+    width: 335px;
+    height: 440px;
+    background-color: #f7f7f7;
+}
+.Apples4 img{
+    width: 240px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.ples{
+    margin-left: 80px;
+    padding-top: 25px;
+}
+.www h2{
+    width: 334px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.ples img{
+    width: 115px;
+    margin-left: 28px;
+}
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+.new-price {
+    color: black;
+    font-weight: bold;
+}
+.Apple5{
+    width: 335px;
+    height: 440px;
+    background-color: #f7f7f7;
+}
+.Apples5 img{
+    width: 240px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.siv{
+    margin-left: 70px;
+    padding-top: 25px;
+}
+.siv h2{
+    width: 334px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.siv img{
+    width: 115px;
+    margin-left: 28px;
+}
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 10px;
+}
+.new-price {
+    color: black;
+    font-weight: bold;
+}
+.Apple6{
+    width: 335px;
+    height: 440px;
+    background-color: #f7f7f7;
+}
+.Apples6 img{
+    width: 240px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.stiv{
+    margin-left: 80px;
+    padding-top: 25px;
+}
+.stiv h2{
+    width: 334px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.stiv img{
+    width: 115px;
+    margin-left: 28px;
+}
+.new-price {
+    color: black;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.bt{
+    padding-top: 50px;
+}
+.bt button{
+    width: 196px;
+    height: 46px;
+    font-size: 18px;
+    background-color: #3858D6;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.here{
+    width: 1102px;
+    padding-top: 100px;
+}
+.heres p{
+    width: 1102px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3858D6;
+}
+.heres h1{
+    width: 1100px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.css{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.kill{
+    width: 524px;
+    height: 239px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 22px;
+    background-color:#F6F6F6;
+}
+.kills img{
+    width: 162px;
+    margin-left: 30px;
+}
+.hamza h2{
+    width: 260px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.hamza p{
+    width: 255px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #8B8E99;
+}
+.stars img{
+    width: 110px;
+    padding-top: 14px;
+}
+.moon{
+    width: 524px;
+    height: 239px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 22px;
+    background-color:#F6F6F6;
+}
+.moons img{
+    width: 162px;
+    margin-left: 30px;
+}
+.hafiz h2{
+    width: 260px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.hafiz p{
+    width: 255px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #8B8E99;
+}
+.stars img{
+    width: 110px;
+    padding-top: 14px;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 25px;
+  }
+  
+  .dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+  }
+  
+  .dot.active {
+    background-color: #2F5BEA; 
+    
+  }
+.asosiy{
+    width: 1100px;
+    height: 337px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 22px;
+    background-color: #F6F6F6;
+    
+}
+.sub{
+    margin-left: 30px;
+}
+.sub h1{
+    width: 547px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.sub p{
+    width: 537px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #8B8E99;
+}
+.wert{
+    width: 100%;
+    margin-top: 30px;
+}
+input{
+    width: 443px;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #8B8E99B2;
+    outline: none;
+    text-indent: 30px;
+}
+form button{
+    width: 112px;
+    height: 45px;
+    cursor: pointer;
+    border: none;
+    border-radius: 9px;
+    color: #FFFFFF;
+    background-color: #3858D6;
+    transform: translate(-130px, -1px);
+}
+.remo img{
+    width: 260px;
+}
+.vvv{
+    width: 1100px;
+    height: 58px;
+    background-color: #0B0B0B;
+}
+.vvv h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+}
